@@ -8,7 +8,10 @@ dist就是压缩好的文件
 
 
 
-# 文档打包
+# help文档打包
 npx vitepress dev
 npx vitepress build
 
+#执行打包
+xcopy "F:\project\gtm-chat.me\*" "F:\project\compress\src" /E /I /H /Y
+cp -R ~/source/* ~/backup
