@@ -1,17 +1,14 @@
+#项目拷贝
+xcopy "F:\project\gtm-chat.me\*" "F:\project\compress\src" /E /I /H /Y
+cp -R ~/source/* ~/backup
+
 #项目压缩
 将需要压缩的静态文件拷贝到src目录中
-
 执行 node compress.js
-
 dist就是压缩好的文件
-
-
 
 
 # help文档打包
 npx vitepress dev
 npx vitepress build
 
-#执行打包
-xcopy "F:\project\gtm-chat.me\*" "F:\project\compress\src" /E /I /H /Y
-cp -R ~/source/* ~/backup
