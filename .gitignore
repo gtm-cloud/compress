@@ -1,7 +1,7 @@
 tmp/
 logs/*
 .idea
-dist/*
-src/*
+dist
+src
 node_modules
 .DS_Store
